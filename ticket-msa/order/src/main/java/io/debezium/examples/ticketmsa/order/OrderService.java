@@ -12,6 +12,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
 import io.debezium.examples.ticketmsa.order.model.Order;
+import org.aerogear.kafka.SimpleKafkaProducer;
 import org.aerogear.kafka.cdi.annotation.KafkaConfig;
 import org.aerogear.kafka.cdi.annotation.Producer;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
